@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+  
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.45s ease-in; 
+}
+
+
+.sidebar{
+    position: absolute;
+    bottom: 35px;
+    /* bottom: -690px; */
+    right: -395px;
+    /* right: 0px; */
+    width: 100%;
+    text-align: right;
+    padding-bottom: 12px;
+    transition: all 0.45s ease-in;
+}
+.search{
+    position: absolute;
+    /* bottom: 35px; */
+    bottom: -540px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 9px;
+    transition: all 0.45s ease-in;
+}
+
+.vscode{
+    position: absolute;
+    width: 100%;
+    left: 3px;
+    /* bottom: 40px; */
+    bottom: -670px;
+    text-align: center;
+    padding-bottom: 9px;
+    /* transition: all 0.3s ease-in; */
+}
+.file{
+    position: absolute;
+    text-align: center;
+    /* bottom: 150px; */
+    bottom: -400px;
+    width: 100%;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.sidebar img{
+    border-radius: 8px;
+}
+.search img{
+    border-radius: 8px;
+}
+ 
+.searchicon{
+    position: relative;
+    left: -315px;
+}
+
+.vscode img{
+    border-radius: 8px;
+}
+
+.file img{
+    border-radius: 8px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+} 
+
+.vsicon2{
+    display: flex;
+    position: relative;
+    left: -181px;
+}
+
+.fileicon{
+    position: relative;
+    left: -86px;
+}
+
+.icons{
+    color: white;
+}
